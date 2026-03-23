@@ -23,3 +23,4 @@ def divide(a, b):
         raise ZeroDivisionError("Division by zero is not allowed.")
     return a / b
 
+
