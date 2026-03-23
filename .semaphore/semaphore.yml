@@ -53,3 +53,17 @@ blocks:
         machine:
           type: e1-standard-2
           os_image: ubuntu2404
+  - name: 'Block #4'
+    dependencies:
+      - "\U0001F50D Code Quality"
+      - "\U0001F9EA Test Suite"
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - make build
+after_pipeline:
+  task:
+    jobs:
+      - name: 'Job #1'
+        commands: []
