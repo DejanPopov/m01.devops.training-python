@@ -1,4 +1,4 @@
-# Demo Project for Python and CI/CD
+# Demo Project for Python and CI/CD!
 
 This is a demo Python project designed to showcase a CI/CD pipeline for Python projects. It includes:
 
